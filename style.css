@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fa;
+}
+
+.hero {
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color: white;
+    padding: 80px;
+    text-align: center;
+}
+
+.btn {
+    background: #00c6ff;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.skills, .projects {
+    padding: 50px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #203a43;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
