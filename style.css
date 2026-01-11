@@ -1,45 +1,251 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f4f7fa;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+/* HEADER */
+header {
+  background: #020617;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  color: #38bdf8;
+}
+
+nav a {
+  margin-left: 25px;
+  color: #e5e7eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* HERO */
 .hero {
-    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
-    color: white;
-    padding: 80px;
-    text-align: center;
+  padding: 100px 60px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 42px;
+}
+
+.hero span {
+  color: #38bdf8;
+}
+
+.hero p {
+  margin-top: 15px;
+  font-size: 18px;
 }
 
 .btn {
-    background: #00c6ff;
-    color: white;
-    padding: 12px 25px;
-    text-decoration: none;
-    border-radius: 25px;
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 30px;
+  background: #38bdf8;
+  color: #020617;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
 }
 
-.skills, .projects {
-    padding: 50px;
-    text-align: center;
+/* SECTIONS */
+section {
+  padding: 70px 60px;
 }
 
-.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
-    gap: 20px;
+section h2 {
+  margin-bottom: 30px;
+  color: #38bdf8;
+}
+
+/* ABOUT */
+.about p {
+  max-width: 800px;
+  line-height: 1.8;
+}
+
+/* SKILLS */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
 }
 
 .card {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background: #020617;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(56,189,248,0.15);
 }
 
-footer {
-    background: #203a43;
-    color: white;
-    text-align: center;
-    padding: 10px;
+/* PROJECTS */
+.project-card {
+  background: #020617;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(56,189,248,0.15);
 }
+
+.project-card h3 {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+/* CONTACT */
+#contact p {
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+  background: #020617;
+  text-align: center;
+  padding: 25px;
+  color: #94a3b8;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+/* HEADER */
+header {
+  background: #020617;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  color: #38bdf8;
+}
+
+nav a {
+  margin-left: 25px;
+  color: #e5e7eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+  padding: 100px 60px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 42px;
+}
+
+.hero span {
+  color: #38bdf8;
+}
+
+.hero p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 30px;
+  background: #38bdf8;
+  color: #020617;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* SECTIONS */
+section {
+  padding: 70px 60px;
+}
+
+section h2 {
+  margin-bottom: 30px;
+  color: #38bdf8;
+}
+
+/* ABOUT */
+.about p {
+  max-width: 800px;
+  line-height: 1.8;
+}
+
+/* SKILLS */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #020617;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(56,189,248,0.15);
+}
+
+/* PROJECTS */
+.project-card {
+  background: #020617;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(56,189,248,0.15);
+}
+
+.project-card h3 {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+/* CONTACT */
+#contact p {
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+  background: #020617;
+  text-align: center;
+  padding: 25px;
+  color: #94a3b8;
+}
+
