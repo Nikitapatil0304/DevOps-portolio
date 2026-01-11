@@ -6,22 +6,22 @@
 }
 
 body {
-  background: #0f172a;
-  color: white;
+  background: #fff0f6;
+  color: #3f3f46;
 }
 
-/* NAV */
+/* NAVBAR */
 nav {
   display: flex;
   justify-content: space-between;
   padding: 20px 60px;
-  background: #020617;
+  background: #ffd6e7;
   position: sticky;
   top: 0;
 }
 
 nav h2 {
-  color: #38bdf8;
+  color: #d6336c;
 }
 
 nav ul {
@@ -30,110 +30,106 @@ nav ul {
 }
 
 nav ul li a {
-  color: white;
-  margin-left: 25px;
+  margin-left: 20px;
   text-decoration: none;
-  transition: 0.3s;
+  color: #3f3f46;
+  font-weight: 500;
 }
 
 nav ul li a:hover {
-  color: #38bdf8;
+  color: #d6336c;
 }
 
 /* HERO */
 .hero {
   height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding-top: 150px;
+  background: linear-gradient(135deg, #ffd6e7, #fff0f6);
 }
 
 .hero span {
-  color: #38bdf8;
+  color: #d6336c;
 }
 
-.hero .sub {
-  margin-top: 10px;
-  color: #94a3b8;
+.hero-icons i {
+  font-size: 35px;
+  margin: 15px;
+  color: #d6336c;
 }
 
 .hero button {
   margin-top: 25px;
   padding: 12px 35px;
-  border-radius: 30px;
   border: none;
-  background: linear-gradient(90deg, #38bdf8, #22c55e);
+  border-radius: 30px;
+  background: #d6336c;
+  color: white;
   cursor: pointer;
-  font-weight: bold;
 }
 
-/* SECTION */
+/* SECTIONS */
 section {
   padding: 80px 60px;
   text-align: center;
 }
 
 h2 {
+  color: #d6336c;
   margin-bottom: 40px;
-  color: #38bdf8;
 }
 
 /* SKILLS */
 .skill-box {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 30px;
+  gap: 25px;
 }
 
 .skill-box div {
-  background: #020617;
+  background: white;
   padding: 30px;
   border-radius: 15px;
-  transition: 0.3s;
-}
-
-.skill-box div:hover {
-  transform: translateY(-10px);
 }
 
 .skill-box i {
-  font-size: 40px;
-  color: #22c55e;
+  font-size: 35px;
+  color: #d6336c;
 }
 
 /* PROJECTS */
 .project-card {
-  background: #020617;
-  padding: 35px;
-  margin: 25px auto;
-  border-radius: 20px;
+  background: white;
+  padding: 30px;
+  margin: 20px auto;
   width: 70%;
-  transition: 0.3s;
-}
-
-.project-card:hover {
-  transform: scale(1.05);
+  border-radius: 20px;
 }
 
 .project-card i {
-  font-size: 35px;
-  color: #38bdf8;
-  margin-bottom: 10px;
+  font-size: 30px;
+  color: #d6336c;
 }
 
-.tech {
-  margin-top: 10px;
-  color: #94a3b8;
+/* EDUCATION */
+.edu-card {
+  background: white;
+  padding: 30px;
+  margin: 20px auto;
+  width: 60%;
+  border-radius: 20px;
 }
 
-/* CONTACT */
-#contact i {
-  color: #22c55e;
-  margin-right: 10px;
+.edu-card i {
+  font-size: 30px;
+  color: #d6336c;
 }
 
 /* FOOTER */
 footer {
-  background: #020617;
+  background: #ffd6e7;
   padding: 20px;
   text-align: center;
 }
